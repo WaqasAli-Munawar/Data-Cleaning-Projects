@@ -1,0 +1,65 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "In this project, we are working on data about **New York City public schools**. One of the most controversial issues in the U.S. educational system is the efficacy of standardized tests, and whether they're unfair to certain groups.\n",
+    "\n",
+    "Our job is to analyze if there is any biasness in **Scholastic Aptitude Test (SAT)**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd\n",
+    "\n",
+    "files = [\"ap_2010.csv\",\"class_size.csv\",\"demographics.csv\",\"graduation.csv\",\n",
+    "         \"graduation.csv\",\"hs_directory.csv\", \"sat_results.csv\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "survey_fields = [\"DBN\", \"rr_s\", \"rr_t\", \"rr_p\", \"N_s\", \"N_t\", \"N_p\", \"saf_p_11\", \n",
+    "        \"com_p_11\", \"eng_p_11\", \"aca_p_11\", \"saf_t_11\", \"com_t_11\", \"eng_t_11\", \n",
+    "        \"aca_t_11\", \"saf_s_11\", \"com_s_11\", \"eng_s_11\", \"aca_s_11\", \"saf_tot_11\", \n",
+    "        \"com_tot_11\", \"eng_tot_11\", \"aca_tot_11\"]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
